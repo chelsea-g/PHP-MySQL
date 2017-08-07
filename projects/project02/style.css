@@ -1,0 +1,179 @@
+.placeholder {
+  display: none;
+
+}
+
+body {
+    
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: tahoma;
+    color: white;
+    background-color: #80b3b3;
+    padding: 0%;
+    
+}
+
+.main {
+    
+    padding-bottom: 100%;
+    background-color: #207979;
+    text-align: center;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+.standout {
+    
+    text-decoration: bold;
+    
+}
+
+.navmenu {
+    
+    background-color: #207979;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: right;
+    
+}
+
+a {
+    
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    
+    color: lightblue;
+    
+    
+}
+
+
+.generatecss_dot_com_table {
+  margin: 36px;
+  box-shadow: 10px 10px 20px 9px #809999;
+  border: 2px solid #207979;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.generatecss_dot_com_table table {
+  margin: 0px;
+  padding: 0px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.generatecss_dot_com_table tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.generatecss_dot_com_table table tr:first-child td:first-child {
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.generatecss_dot_com_table table tr:first-child td:last-child {
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.generatecss_dot_com_table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.generatecss_dot_com_table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.generatecss_dot_com_table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.generatecss_dot_com_table td {
+  vertical-align:middle;
+  border:2px solid #207979;
+  border-width: 0px 1px 1px 0px;
+  text-align: left;
+  padding: 2px;
+  font-size: 12px;
+  font-family: Tahoma;
+  color: #609f9f;
+}
+
+.generatecss_dot_com_table tr:last-child td {
+  border-width: 0px 1px 0px 0px;
+}
+
+.generatecss_dot_com_table tr td:last-child {
+  border-width: 0px 0px 1px 0px;
+}
+
+.generatecss_dot_com_table tr:last-child td:last-child {
+  border-width: 0px 0px 0px 0px;
+}
+
+.generatecss_dot_com_table tr:first-child td {
+  background:-o-linear-gradient(bottom, #dfecec 5%, #dfecec 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfecec), color-stop(1, #dfecec));
+  background:-moz-linear-gradient(center top, #dfecec 5%, #dfecec 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#dfecec", endColorstr="#dfecec");
+  background: -o-linear-gradient(top,#dfecec, #dfecec);
+  background-color: #dfecec;
+  border: 2px solid #207979;
+  text-align: center;
+  border-width: 0px 0px 1px 1px;
+  font-size: 18px;
+  font-family: Tahoma;
+  color: #207979;
+  font-weight: bold;
+  
+}
+
+.generatecss_dot_com_table tr:first-child:hover td {
+  background:-o-linear-gradient(bottom, #dfecec 5%, #dfecec 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfecec), color-stop(1, #dfecec));
+  background:-moz-linear-gradient(center top, #dfecec 5%, #dfecec 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#dfecec", endColorstr="#dfecec");
+  background: -o-linear-gradient(top,#dfecec, #dfecec);
+  background-color: #dfecec;
+}
+
+.generatecss_dot_com_table tr:first-child td:first-child {
+  border-width: 0px 0px 1px 0px;
+}
+
+.generatecss_dot_com_table tr:first-child td:last-child {
+  border-width: 0px 0px 1px 1px;
+}
+
+
+
+
+

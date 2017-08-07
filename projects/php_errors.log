@@ -1,0 +1,20 @@
+[05-Aug-2017 14:33:04 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/projects/project02/editprofile.php on line 39
+[05-Aug-2017 14:33:04 UTC] PHP Stack trace:
+[05-Aug-2017 14:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/editprofile.php:0
+[05-Aug-2017 14:33:04 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/projects/project02/editprofile.php:39
+[05-Aug-2017 14:40:02 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/projects/project02/editprofile.php on line 39
+[05-Aug-2017 14:40:02 UTC] PHP Stack trace:
+[05-Aug-2017 14:40:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/editprofile.php:0
+[05-Aug-2017 14:40:02 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/projects/project02/editprofile.php:39
+[05-Aug-2017 14:43:08 UTC] PHP Warning:  getimagesize() expects parameter 1 to be string, array given in /home/ubuntu/workspace/projects/project02/editprofile.php on line 39
+[05-Aug-2017 14:43:08 UTC] PHP Stack trace:
+[05-Aug-2017 14:43:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/editprofile.php:0
+[05-Aug-2017 14:43:08 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/projects/project02/editprofile.php:39
+[05-Aug-2017 14:45:25 UTC] PHP Warning:  getimagesize(2015-09-04 23.55.22.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/projects/project02/editprofile.php on line 39
+[05-Aug-2017 14:45:25 UTC] PHP Stack trace:
+[05-Aug-2017 14:45:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/editprofile.php:0
+[05-Aug-2017 14:45:25 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/projects/project02/editprofile.php:39
+[05-Aug-2017 14:49:58 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/projects/project02/editprofile.php on line 39
+[05-Aug-2017 14:49:58 UTC] PHP Stack trace:
+[05-Aug-2017 14:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/editprofile.php:0
+[05-Aug-2017 14:49:58 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/projects/project02/editprofile.php:39

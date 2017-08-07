@@ -1,0 +1,22 @@
+ADMINER STUFF
+--------------
+
+1. Create folder called PDO
+2. Log into adminer localhost/adminer root/root
+3. Click create new database
+4. Name it
+5. Create table
+6. Name it
+7. Enter collumns, start with id and auto increment (at least)
+8. Set any default values by clicking default value checkbox
+9. Save
+10. Review schema
+11. Alter table / new item if you have to
+
+PDO STUFF
+---------------
+
+12. New file StudentManager.php (whatever context...)
+13. Create php class called -^^
+14. CRUD - create read update delete
+15. look at Src Code

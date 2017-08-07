@@ -1,0 +1,37 @@
+*****Test Drive pg 69:*****
+
+    mysql> INSERT INTO aliens_abduction (first_name, last_name, 
+        ->when_it_happened, how_long, how_many, alien_description, 
+        ->what_they_did, fang_spotted, other, email) 
+        ->VALUES ('Sally', 'Jones', '3 days ago', '1 day', 'four', 
+        ->'green with six tentacles', 'We just talked and played with a dog',  
+        ->'yes', 'I may have seen your dog. Contact me.', 
+        ->'sally@gregs-list.net');                  
+    Query OK, 1 row affected (0.01 sec)
+
+        
+
+*****Test Drive pg 71:*****
+
+    mysql> SELECT * FROM aliens_abduction;
+    +------------+-----------+------------------+----------+----------+--------------------------+--------------------------------------+--------------+---------------------------------------+----------------------+
+    | first_name | last_name | when_it_happened | how_long | how_many | alien_description        | what_they_did                        | fang_spotted | other                                 | email                |
+    +------------+-----------+------------------+----------+----------+--------------------------+--------------------------------------+--------------+---------------------------------------+----------------------+
+    | Sally      | Jones     | 3 days ago       | 1 day    | four     | green with six tentacles | We just talked and played with a dog | yes          | I may have seen your dog. Contact me. | sally@gregs-list.net |
+    +------------+-----------+------------------+----------+----------+--------------------------+--------------------------------------+--------------+---------------------------------------+----------------------+
+    1 row in set (0.00 sec)
+
+
+
+*****Test Drive pg 97:*****
+
+    mysql> SELECT * FROM aliens_abduction WHERE fang_spotted = 'yes';
+    +------------+-----------+------------------+------------+-----------+---------------------------------------------+---------------------------------------------+--------------+------------------------------------------------------+---------------------------------+
+    | first_name | last_name | when_it_happened | how_long   | how_many  | alien_description                           | what_they_did                               | fang_spotted | other                                                | email                           |
+    +------------+-----------+------------------+------------+-----------+---------------------------------------------+---------------------------------------------+--------------+------------------------------------------------------+---------------------------------+
+    | Sally      | Jones     | 3 days ago       | 1 day      | four      | green with six tentacles                    | We just talked and played with a dog        | yes          | I may have seen your dog. Contact me.                | sally@gregs-list.net            |
+    | Sally      | Jones     | 3 days ago       | 1 day      | four      | green with six tentacles                    | We just talked and played with a dog        | yes          | I may have seen your dog. Contact me.                | sally@gregs-list.net            |
+    | Don        | Quayle    | back in 1991     | 37 seconds | dunno     | they looked like donkeys made out of metal  | shot me with a thousand points of lightning | yes          | I really do love potatoes.                           | dq@iwasvicepresident.com        |
+    | Shill      | Watner    | summer of 69     | 2 hours    | dont know | there was a bright light in the sky, freaky | they beamed me toward a gas station         | yes          | I was out of gas, so it was a pretty good abduction. | shillwatner@imightbecaptain.net |
+    +------------+-----------+------------------+------------+-----------+---------------------------------------------+---------------------------------------------+--------------+------------------------------------------------------+---------------------------------+
+    4 rows in set (0.00 sec)

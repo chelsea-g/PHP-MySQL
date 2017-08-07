@@ -1,0 +1,38 @@
+Test Drive pg 637
+    
+    mysql> select mr.response_id, mr.topic_id, mr.response,
+        -> mt.name AS topic_name, mc.name AS category_name
+        -> from mismatch_response AS mr
+        -> inner join mismatch_topic AS mt USING (topic_id)
+        -> inner join mismatch_category AS mc USING (category_id)
+        -> WHERE mr.user_id = 3;
+    +-------------+----------+----------+-----------------------------------+---------------+
+    | response_id | topic_id | response | topic_name                        | category_name |
+    +-------------+----------+----------+-----------------------------------+---------------+
+    |         151 |        1 |        1 | Tattoos                           | Appearance    |
+    |         152 |        2 |        1 | Gold chains                       | Appearance    |
+    |         153 |        3 |        1 | Body piercings                    | Appearance    |
+    |         154 |        4 |        2 | Cowboy boots                      | Appearance    |
+    |         155 |        5 |        2 | Long hair                         | Appearance    |
+    |         156 |        6 |        2 | Reality TV                        | Entertainment |
+    |         157 |        7 |        1 | Professional wrestling            | Entertainment |
+    |         158 |        8 |        1 | Horror movies                     | Entertainment |
+    |         159 |        9 |        2 | Easy listening music              | Entertainment |
+    |         160 |       10 |        1 | The opera                         | Entertainment |
+    |         161 |       11 |        1 | Sushi                             | Food          |
+    |         162 |       12 |        1 | Spam                              | Food          |
+    |         163 |       13 |        1 | Spicy food                        | Food          |
+    |         164 |       14 |        1 | Peanut butter & banana sandwiches | Food          |
+    |         165 |       15 |        1 | Martinis                          | Food          |
+    |         166 |       16 |        2 | Howard Stern                      | People        |
+    |         167 |       17 |        2 | Bill Gates                        | People        |
+    |         168 |       18 |        2 | Barbara Streisand                 | People        |
+    |         169 |       19 |        1 | Hugh Hefner                       | People        |
+    |         170 |       20 |        1 | Martha Stewart                    | People        |
+    |         171 |       21 |        1 | Yoga                              | Activities    |
+    |         172 |       22 |        1 | Weightlifting                     | Activities    |
+    |         173 |       23 |        1 | Cube puzzles                      | Activities    |
+    |         174 |       24 |        2 | Karaoke                           | Activities    |
+    |         175 |       25 |        2 | Hiking                            | Activities    |
+    +-------------+----------+----------+-----------------------------------+---------------+
+    25 rows in set (0.00 sec)

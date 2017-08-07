@@ -1,0 +1,39 @@
+body {
+    
+    background-color: #827191;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+#form, #admin, #delete {
+    
+    background-color: #D4DCCD;
+    
+}
+
+h1, h2, h3 {
+    
+    color: #FFE8E1;
+}
+
+table {
+    
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+td {
+    
+    padding: 20px;
+    text-align: center;
+    
+}
+
+a:link {
+     
+    color: #827191;
+     
+}
+
+

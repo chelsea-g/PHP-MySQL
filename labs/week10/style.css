@@ -1,0 +1,62 @@
+/*
+Really terrible css for the madlibs webpage. :c
+*/
+
+body{
+    font-family: "Impact", Charcoal, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font: bold;
+}
+
+table {
+    
+    border-collapse: collapse;
+    border: 4px solid black;
+    margin: 0px auto; 
+    margin-top: 75px;
+    
+}
+
+
+tr:first-child {
+    
+    text-align: center; 
+    background-color: green;
+    color: white;
+    border: 4px solid black;
+    
+}
+
+td:nth-child(n+4) {
+    
+    padding: 10px;
+    text-align: left;
+    
+}
+
+td {
+    
+    padding: 10px;
+}
+
+tr {
+    
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

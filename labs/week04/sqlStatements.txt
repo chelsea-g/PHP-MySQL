@@ -1,0 +1,33 @@
+
+pg.211 Test Drive
+
+mysql> alter table email_list add id int not null auto_increment first,
+    -> add primary key (id);
+Query OK, 3 rows affected (0.04 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select * from email_list;
++----+------------+-----------+---------------------------+
+| id | first_name | last_name | email                     |
++----+------------+-----------+---------------------------+
+|  1 | Chelsea    | Greger    | GREGER@madisoncollege.edu |
+|  2 | Erin       | Larson    | elarson@gmail.com         |
+|  3 | Jacob      | Greger    | jgreger@gmail.com         |
++----+------------+-----------+---------------------------+
+3 rows in set (0.00 sec)
+
+mysql> insert into email_list (first_name, last_name, email)
+    -> values ('Don', 'Draper', 'draper@sterling-cooper.com');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from email_list;
++----+------------+-----------+----------------------------+
+| id | first_name | last_name | email                      |
++----+------------+-----------+----------------------------+
+|  1 | Chelsea    | Greger    | GREGER@madisoncollege.edu  |
+|  2 | Erin       | Larson    | elarson@gmail.com          |
+|  3 | Jacob      | Greger    | jgreger@gmail.com          |
+|  4 | Don        | Draper    | draper@sterling-cooper.com |
++----+------------+-----------+----------------------------+
+4 rows in set (0.00 sec)
+

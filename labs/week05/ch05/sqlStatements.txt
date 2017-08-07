@@ -1,0 +1,47 @@
+pg 235 Test Drive
+
+        mysql> select * from guitarwars;
+        +----+---------------------+-------------------+--------+
+        | id | date                | name              | score  |
+        +----+---------------------+-------------------+--------+
+        |  1 | 2008-04-22 14:37:34 | Paco Jastorius    | 127650 |
+        |  2 | 2008-04-22 21:27:54 | Nevil Johansson   |  98430 |
+        |  4 | 2008-04-23 09:12:53 | Belita Chevy      | 282470 |
+        |  6 | 2008-04-23 14:09:50 | Kenny Lavitz      |  64930 |
+        |  7 | 2008-04-24 08:13:52 | Phiz Lairston     | 186580 |
+        |  8 | 2008-04-25 07:22:19 | Jean Paul Jones   | 243260 |
+        |  9 | 2008-04-25 11:49:23 | Jacob Scorcherson | 389740 |
+        +----+---------------------+-------------------+--------+
+        7 rows in set (0.00 sec)
+        
+        mysql> alter table guitarwars add column screenshot varchar(64);
+        Query OK, 7 rows affected (0.02 sec)
+        Records: 7  Duplicates: 0  Warnings: 0
+        
+        mysql> select * from guitarwars;
+        +----+---------------------+-------------------+--------+------------+
+        | id | date                | name              | score  | screenshot |
+        +----+---------------------+-------------------+--------+------------+
+        |  1 | 2008-04-22 14:37:34 | Paco Jastorius    | 127650 | NULL       |
+        |  2 | 2008-04-22 21:27:54 | Nevil Johansson   |  98430 | NULL       |
+        |  4 | 2008-04-23 09:12:53 | Belita Chevy      | 282470 | NULL       |
+        |  6 | 2008-04-23 14:09:50 | Kenny Lavitz      |  64930 | NULL       |
+        |  7 | 2008-04-24 08:13:52 | Phiz Lairston     | 186580 | NULL       |
+        |  8 | 2008-04-25 07:22:19 | Jean Paul Jones   | 243260 | NULL       |
+        |  9 | 2008-04-25 11:49:23 | Jacob Scorcherson | 389740 | NULL       |
+        +----+---------------------+-------------------+--------+------------+
+        7 rows in set (0.00 sec)
+        
+        mysql> describe guitarwars;
+        +------------+-------------+------+-----+-------------------+----------------+
+        | Field      | Type        | Null | Key | Default           | Extra          |
+        +------------+-------------+------+-----+-------------------+----------------+
+        | id         | int(11)     | NO   | PRI | NULL              | auto_increment |
+        | date       | timestamp   | NO   |     | CURRENT_TIMESTAMP |                |
+        | name       | varchar(32) | YES  | MUL | NULL              |                |
+        | score      | int(11)     | YES  |     | NULL              |                |
+        | screenshot | varchar(64) | YES  |     | NULL              |                |
+        +------------+-------------+------+-----+-------------------+----------------+
+        5 rows in set (0.00 sec)
+        
+

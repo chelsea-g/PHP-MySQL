@@ -1,0 +1,24 @@
+[28-Apr-2016 19:29:40 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/week14/aliens/index.php on line 17
+[28-Apr-2016 19:29:40 UTC] PHP Stack trace:
+[28-Apr-2016 19:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/week14/aliens/index.php:0
+[28-Apr-2016 19:29:40 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/week14/aliens/index.php:17
+[28-Apr-2016 19:29:40 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/week14/aliens/index.php on line 17
+[28-Apr-2016 19:29:40 UTC] PHP Stack trace:
+[28-Apr-2016 19:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/week14/aliens/index.php:0
+[28-Apr-2016 19:29:40 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/week14/aliens/index.php:17
+[28-Apr-2016 19:29:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/week14/aliens/index.php on line 26
+[28-Apr-2016 19:29:40 UTC] PHP Stack trace:
+[28-Apr-2016 19:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/week14/aliens/index.php:0
+[28-Apr-2016 19:29:40 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/week14/aliens/index.php:26
+[28-Apr-2016 19:29:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/week14/aliens/index.php on line 28
+[28-Apr-2016 19:29:40 UTC] PHP Stack trace:
+[28-Apr-2016 19:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/week14/aliens/index.php:0
+[28-Apr-2016 19:29:40 UTC] PHP   2. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/labs/week14/aliens/index.php:28
+[28-Apr-2016 19:29:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/week14/aliens/index.php on line 47
+[28-Apr-2016 19:29:40 UTC] PHP Stack trace:
+[28-Apr-2016 19:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/week14/aliens/index.php:0
+[28-Apr-2016 19:29:40 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/week14/aliens/index.php:47
+[28-Apr-2016 19:29:40 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/week14/aliens/index.php on line 59
+[28-Apr-2016 19:29:40 UTC] PHP Stack trace:
+[28-Apr-2016 19:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/week14/aliens/index.php:0
+[28-Apr-2016 19:29:40 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/week14/aliens/index.php:59

@@ -1,0 +1,57 @@
+pg. 118 AND pg. 121:
+
+mysql> create database elvis_store;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use elvis_store
+Database changed
+
+mysql> create table email_list ( 
+    -> first_name VARCHAR(20), 
+    -> last_name VARCHAR(20), 
+    -> email VARCHAR(60));
+Query OK, 0 rows affected (0.02 sec)
+
+
+pg. 129:
+mysql> select * from email_list;
++------------+-----------+---------------------------+
+| first_name | last_name | email                     |
++------------+-----------+---------------------------+
+| Chelsea    | Greger    | GREGER@madisoncollege.edu |
++------------+-----------+---------------------------+
+1 row in set (0.00 sec)
+
+
+pg. 150:
+mysql> select * from email_list;
++------------+-----------+---------------------------+
+| first_name | last_name | email                     |
++------------+-----------+---------------------------+
+| Chelsea    | Greger    | GREGER@madisoncollege.edu |
+| Adam       | Gille     | kshoggi@gmail.com         |
+| Erin       | Larson    | erindance@google.com      |
++------------+-----------+---------------------------+
+3 rows in set (0.02 sec)
+
+mysql> delete from email_list where email = 'erindance@google.com';
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from email_list;
++------------+-----------+---------------------------+
+| first_name | last_name | email                     |
++------------+-----------+---------------------------+
+| Chelsea    | Greger    | GREGER@madisoncollege.edu |
+| Adam       | Gille     | kshoggi@gmail.com         |
++------------+-----------+---------------------------+
+2 rows in set (0.00 sec)
+
+pg. 153:
+
+mysql> select * from email_list;
++------------+-----------+---------------------------+
+| first_name | last_name | email                     |
++------------+-----------+---------------------------+
+| Chelsea    | Greger    | GREGER@madisoncollege.edu |
++------------+-----------+---------------------------+
+1 row in set (0.00 sec)
